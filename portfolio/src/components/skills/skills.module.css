@@ -1,0 +1,29 @@
+.skills{
+    width: 80%;
+    margin: 0 auto;
+}
+.skills h3{
+    font-size: 72px;
+    text-shadow: -15px 0px 50px black;
+}
+.skillsWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.top, .bottom{
+    display: flex;
+    /* width: 60%; */
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.top div, .bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.top div img{
+    margin-bottom: 20px;
+}
