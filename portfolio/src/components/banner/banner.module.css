@@ -1,11 +1,10 @@
 .banner{
     width: 80%;
-    margin: 100px auto;
+    margin: 50px auto 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    height: 70vh;
 }
 .left h3{
     font-size: 36px;
