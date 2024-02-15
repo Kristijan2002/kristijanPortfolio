@@ -7,7 +7,7 @@ const Banner: React.FC = () => {
   <div className={style.banner}>
     <div className={style.left}>
         <h3>Hello</h3>
-        <h1>I’m a 
+        <h1>I’m 
             <br />
             Kristijan</h1>
         <h3>Web developer, based in Macedonia </h3>
