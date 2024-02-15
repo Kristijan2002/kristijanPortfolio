@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+    height: 70vh;
 }
 .left h3{
     font-size: 36px;
@@ -35,10 +37,75 @@
     margin-top: 30px;
     width: 20%;
     display: flex;
-    justify-content: space-between;
 }
 .social a svg{
     border: 1px solid white;
     border-radius: 50%;
     padding: 10px;
+    margin-right: 20px;
+}
+
+.right{
+    margin-bottom: 130px;
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1299px) {
+    .left h3{
+        font-size: 20px;
+    }
+    .left h1{
+        font-size: 56px;
+    }
+    .right img{
+        width: 360px;
+    }
+    .getInTouch a{
+        width: 206px;
+        height: 54px;
+        font-size: 18px;
+    }
+    .getInTouch svg{
+        width: 20%;
+        height: auto;
+    }
+}
+  
+@media only screen and (min-width: 1300px) and (max-width: 1439px){
+    .left h3{
+        font-size: 24px;
+    }
+    .left h1{
+        font-size: 72px;
+    }
+    .right img{
+        width: 500px;
+    }
+    .getInTouch a{
+        width: 206px;
+        height: 54px;
+        font-size: 18px;
+    }
+    .getInTouch svg{
+        width: 25%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px) {
+    .left h3{
+        font-size: 26px;
+    }
+    .left h1{
+        font-size: 78px;
+    }
+    .right img{
+        width: 500px;
+    }
+    .getInTouch a{
+        width: 206px;
+        height: 54px;
+        font-size: 18px;
+    }
 }
