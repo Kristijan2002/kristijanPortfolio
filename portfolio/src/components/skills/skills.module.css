@@ -1,6 +1,6 @@
 .skills{
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .skills h3{
     font-size: 72px;
@@ -13,7 +13,7 @@
 }
 .top, .bottom{
     display: flex;
-    /* width: 60%; */
+    width: 60%;
     justify-content: space-between;
     margin: 30px 0;
 }
@@ -24,6 +24,29 @@
     justify-content: space-between;
     font-size: 24px;
 }
+.top div p, .bottom div p{
+    width: 160px;
+    text-align: center;
+}
 .top div img{
     margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1299px) {
+.top div img, .bottom div img{
+    width: 50px;
+}
+.top div p, .bottom div p{
+    font-size: 14px;
+    width: 85px;
+}
+}
+  
+@media only screen and (min-width: 1300px) and (max-width: 1439px){
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px) {
+
 }
