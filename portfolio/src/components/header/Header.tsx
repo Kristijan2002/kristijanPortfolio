@@ -4,11 +4,11 @@ const Header: React.FC = () => {
  
 
   return (
-  <header className={style.header}>
+  <header className={style.header} id="home">
     <a href="">Logo</a>
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="">Skills</a></li>
         <li><a href="">Projects</a></li>
         <li><a href="/Kristijan Maksimovski CV.pdf" download="Kristijan Maksimovski CV" className={style.cv}>
