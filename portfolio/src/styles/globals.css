@@ -3,6 +3,9 @@ body{
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
 }
+html{
+  scroll-behavior: smooth;
+}
 a{
   color: #FFFFFF;
   text-decoration: none;
