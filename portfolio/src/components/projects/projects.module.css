@@ -30,3 +30,51 @@
 .alignRight{
     text-align: end;
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1299px) {
+    .projects h3{
+        font: 56px;
+    }
+    .image img{
+        width: 500px;
+    }
+    .desc{
+        font-size: 18px;
+    }
+    .tehnologies{
+        margin-top: 15px;
+    }
+}
+  
+@media only screen and (min-width: 1300px) and (max-width: 1439px){
+    .projects h3{
+        font: 56px;
+    }
+    .image img{
+        width: 500px;
+    }
+    .desc{
+        font-size: 18px;
+    }
+    .tehnologies{
+        margin-top: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px) {
+    .projects h3{
+        font: 56px;
+    }
+    .image img{
+        width: 500px;
+    }
+    .desc{
+        font-size: 18px;
+    }
+    .tehnologies{
+        margin-top: 15px;
+    }
+
+
+}

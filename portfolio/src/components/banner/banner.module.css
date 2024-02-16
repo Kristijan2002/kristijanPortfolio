@@ -51,6 +51,9 @@
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1299px) {
+    .banner{
+        margin: 20px auto 100px;
+    }
     .left h3{
         font-size: 20px;
     }
