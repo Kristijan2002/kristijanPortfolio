@@ -1,6 +1,26 @@
+import { useEffect, useRef } from "react";
 import style from "./banner.module.css";
+import lottie, { AnimationItem } from 'lottie-web';
 
 const Banner: React.FC = () => {
+
+    const animationContainer = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        // Load Lottie animation when component mounts
+        const animation = lottie.loadAnimation({
+          container: animationContainer.current!,
+          renderer: 'svg', // You can choose the renderer you want
+          loop: true, // Optional
+          autoplay: true, // Optional
+          animationData: require('./Animation - 1709063423303.json'), // Path to your Lottie animation JSON file
+        });
+    
+        // Cleanup function to stop animation when component unmounts
+        return () => {
+          animation.destroy();
+        };
+      }, []);
  
 
   return (
@@ -40,7 +60,7 @@ const Banner: React.FC = () => {
         </div>
     </div>
     <div className={style.right}>
-        <img src="/Frame.svg" alt="image" />
+    <div ref={animationContainer} className={style.animationContainer}></div>
     </div>
   </div>
     )

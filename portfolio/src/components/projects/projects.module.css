@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     box-sizing: border-box;
-    display: flex;
+    display: none;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
@@ -29,13 +29,13 @@
 .hoverDiv .link:hover{
     cursor: pointer;
 }
-.hoverDiv div, .hoverDivRight div{
+/* .hoverDiv div, .hoverDivRight div{
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
-}
+} */
 .projects h3{
     font-size: 72px;
     font-family: "Anta", sans-serif !important;
@@ -54,15 +54,15 @@
     height: auto;
     position: relative;
 }
+  
 .image img{
     width: 100%;
     height: 100%;
 }
-.image:hover + .hoverDiv{
+.image img:hover + .hoverDiv{
     display: flex;
-    border: 2px solid red;
 }
-.image:hover + .hoverDivRight{
+.image img:hover + .hoverDivRight{
     display: flex;
 }
 .desc{
