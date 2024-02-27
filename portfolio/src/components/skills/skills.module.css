@@ -5,6 +5,8 @@
 .skills h3{
     font-size: 72px;
     text-shadow: -15px 0px 50px black;
+    font-family: "Anta", sans-serif !important;
+    font-weight: normal;
 }
 .skillsWrapper{
     display: flex;

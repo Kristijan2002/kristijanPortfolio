@@ -5,6 +5,8 @@ import Banner from "@/components/banner/Banner";
 import About from "@/components/about/About";
 import Skills from "@/components/skills/Skills";
 import Projects from "@/components/projects/Projects";
+import Form from "@/components/form/Form";
+import Foooter from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +24,8 @@ export default function Home() {
        <About />
        <Skills />
        <Projects />
+       <Form />
+       <Foooter />
       </main>
     </>
   );
