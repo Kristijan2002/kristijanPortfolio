@@ -5,7 +5,7 @@ const Header: React.FC = () => {
 
   return (
   <header className={style.header} id="home">
-    <a href="">Logo</a>
+    <a href=""><img src="/OBJECTS (1).svg" alt="" /></a>
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>

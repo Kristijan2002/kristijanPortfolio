@@ -26,7 +26,6 @@ const Form: React.FC = () => {
         );
 };
 
- 
   return (
     <form ref={formRef} onSubmit={sendEmail} className={style.form}>
         <h3>Contact</h3>
@@ -38,7 +37,7 @@ const Form: React.FC = () => {
           <path d="M29 3L3 15L15 17.5M29 3L19 29L15 17.5M29 3L15 17.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </button>
-  </form>
+    </form>
     )
 };
 
