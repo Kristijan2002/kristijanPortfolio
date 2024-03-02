@@ -5,7 +5,7 @@ const Header: React.FC = () => {
 
   return (
   <header className={style.header} id="home">
-    <a href="" className={style.rotate}><img src="/OBJECTS (1).svg" alt="" /></a>
+    <a href="" className={style.rotate}><img src="/OBJECTS.svg" alt="" /></a>
     <ul className={style.nav}>
         <li><a href="#home" className={style.hover}>Home</a></li>
         <li><a href="#about" className={style.hover}>About</a></li>
