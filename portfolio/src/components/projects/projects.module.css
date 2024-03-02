@@ -19,6 +19,7 @@
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+    border: solid;
 }
 .hoverDivRight{
     right: 0;
@@ -29,15 +30,8 @@
 .hoverDiv .link:hover{
     cursor: pointer;
 }
-/* .hoverDiv div, .hoverDivRight div{
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
-} */
 .projects h3{
-    font-size: 72px;
+    font-size: 1.8em;
     font-family: "Anta", sans-serif !important;
     font-weight: normal;
     text-shadow: -15px 0px 50px black;
@@ -48,6 +42,9 @@
     justify-content: space-between;
     gap: 20px;
     margin: 100px 0;
+}
+.project:nth-child(even) {
+    flex-direction: row-reverse;
 }
 .image{
     width: 60%;
@@ -83,17 +80,15 @@
 .alignRight{
     text-align: end;
 }
-
 @media screen and (max-width: 768px) {
-    .projects {
-      width: 90%;
+    .project{
+        width: 100%;
+        flex-direction: column;
     }
-
-    .skillsWrapper div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      flex-basis: calc(50% - 10px);
-  }
+    .image {
+        width: 100%;
+    }
+    .desc {
+        width: 100%;
+    }
 }
