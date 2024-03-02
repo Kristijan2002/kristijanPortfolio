@@ -26,7 +26,7 @@ const Banner: React.FC = () => {
   return (
   <div className={style.banner}>
     <div className={style.left}>
-        <h3>Hello</h3>
+        <h3>Hello &#128075;</h3>
         <h1>I’m 
             <br />
             Kristijan</h1>

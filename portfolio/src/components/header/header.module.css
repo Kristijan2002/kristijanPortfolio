@@ -38,6 +38,82 @@
 
 
 
+.nav {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.nav * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.nav .hover {
+  padding: .5em .8em;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav .hover::before,
+.nav .hover::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav .hover::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
+}
+
+.nav .hover:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%);
+}
+
+.nav .hover:hover:before,
+.nav .hover:hover:after {
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav .hover:hover {
+  color: #3DA35D;
+}
+
+.rotate{
+    animation: rotation 5s infinite linear;
+
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 @media only screen and (min-width: 1024px) and (max-width: 1299px) {
     .header a{
         font-size: 32px;
