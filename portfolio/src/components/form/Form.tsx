@@ -34,7 +34,7 @@ const Form: React.FC = () => {
         <input type="email" name="user_email" placeholder='Your email' value={email} onChange={(e) => setEmail(e.target.value)}/>
         <input type="text" name="message" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}/>
         <button type='submit'>Send <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <path d="M29 3L3 15L15 17.5M29 3L19 29L15 17.5M29 3L15 17.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M29 3L3 15L15 17.5M29 3L19 29L15 17.5M29 3L15 17.5" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </button>
     </form>

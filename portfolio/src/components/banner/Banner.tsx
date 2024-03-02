@@ -27,9 +27,12 @@ const Banner: React.FC = () => {
   <div className={style.banner}>
     <div className={style.left}>
         <h3>Hello &#128075;</h3>
-        <h1>I’m 
-            <br />
-            Kristijan</h1>
+        <h4>
+            I’m 
+        </h4>
+        <h1>
+            Kristijan
+        </h1>
         <h3>Web developer, based in Macedonia </h3>
         <div className={style.getInTouch}>
         <a href="">Get in touch with me</a>
@@ -59,9 +62,7 @@ const Banner: React.FC = () => {
         </a>
         </div>
     </div>
-    <div className={style.right}>
     <div ref={animationContainer} className={style.animationContainer}></div>
-    </div>
   </div>
     )
 };

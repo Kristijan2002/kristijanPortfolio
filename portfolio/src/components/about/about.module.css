@@ -1,6 +1,6 @@
 .about{
     width: 80%;
-    margin: 100px auto;
+    margin: 10% auto;
 }
 .about h3{
     font-size: 72px;
@@ -8,31 +8,16 @@
     text-shadow: -15px 0px 50px black;
     font-family: "Anta", sans-serif !important;
     font-weight: normal;
+    font-size: 1.8em;
+    margin: 10% auto;
 }
 .about p{
-    font-size: 24px;
-    line-height: 40px;
     text-align: center;
+    font-size: 1.5em;
 }
 
-
-@media only screen and (min-width: 1024px) and (max-width: 1299px) {
-    .about h3{
-        font-size: 56px;
-    }
-    .about p{
-        font-size: 20px;
-        line-height: 30px;
-    }
-}
-
-  
-@media only screen and (min-width: 1300px) and (max-width: 1439px){
-    .about h3{
-        font-size: 64px;
-    }
-    .about p{
-        font-size: 22px;
-        line-height: 30px;
+@media screen and (max-width: 768px) {
+    .about {
+        width: 90%;
     }
 }
